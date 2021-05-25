@@ -1,0 +1,14 @@
+@layer components {
+    .first-grid {
+      @apply w-auto h-auto p-2 mb-2 mr-2 text-xs list-none bg-black border-2 border-iron-silver border-solid rounded md:mr-0 row-span-r5 col-span-c1 lg:row-span-r8 lg:col-span-c5;
+    }
+    .second-grid {
+      @apply w-auto h-auto p-2 mb-2 mr-2 text-xs list-none bg-black border-2 border-iron-silver border-solid rounded md:mr-0 row-span-r6 col-span-c1 lg:row-span-r9 lg:col-span-c5;
+    }
+    .header-nav {
+      @apply flex flex-col items-center pb-2 text-base lg:mr-5 lg:items-end;
+    }
+    .body-style {
+      @apply font-sans text-white bg-black-light;
+    }
+  }
